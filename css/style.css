@@ -1,0 +1,203 @@
+/* google font poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1199px;
+  width: 80%;
+  margin: auto;
+}
+.content {
+  width: 100%;
+}
+.width-33 {
+  width: 33%;
+}
+.width-50 {
+  width: 50%;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff5959;
+  color: #fff;
+  padding: 16px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+}
+p {
+  padding: 40px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background-color: #000;
+  padding: 40px 0;
+}
+.footer-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff5959;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #d9dbe1;
+}
+
+/* main css start here */
+
+/* banner section */
+
+.banner {
+  background: url(../images/donation0.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  background-blend-mode: darken;
+}
+
+/* donate today section */
+
+#donate-field {
+  outline: none;
+  border: none;
+  display: block;
+  margin: 29px 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.price-item {
+  list-style-type: none;
+  color: #707070;
+  background: #d9dbe1;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.price-item:nth-child(2) {
+  background: #fee;
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+
+/* donate plan section */
+i.fa-solid {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  padding: 20px;
+  border-radius: 10px;
+}
+.item-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.item-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+
+.item-3 {
+  background: rgba(255, 192, 203, 0.601);
+}
+
+/* testimonial section */
+.person {
+  height: 300px;
+}
+.person-img {
+  align-self: center;
+}
+.person-img img {
+  height: 132px;
+  width: 391px;
+  border-radius: 10px;
+}
+
+.person-text {
+  padding: 20px;
+  align-self: self-start;
+  padding-top: 46px;
+}
+
+/* update section */
+
+.small-body {
+  width: 60%;
+  margin: auto;
+}
+
+.small-body form {
+  background-color: #fff4d6;
+  padding: 70px;
+}
+
+#email-field {
+  background: #d9d9d9;
+}
+.subscribe-btn {
+  background-color: #ff5959;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  left: -6px;
+}
+.subscribe-btn,
+#email-field {
+  padding: 15px 20px;
+  margin: 0;
+  font-size: 20px;
+}
